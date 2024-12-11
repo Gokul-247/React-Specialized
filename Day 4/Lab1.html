@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Form</title>
+    <script src="Lab1.js"></script>
+</head>
+<body>
+    <h1>Marks Card</h1>
+    <form>
+        <label for="sname"><B>Student Name</B></label>
+        <input type="text" id="sname"><br><br>
+        <label for="pname"><B>Programme Name</B></label>
+        <input type="text" id="pname"><br><br>
+        <label for="sem"><B>Semester</B></label>
+        <select id ="sem">
+            <option>I</option>
+            <option>II</option>
+            <option>III</option>
+            <option>IV</option>
+            <option>V</option>
+            <option>VI</option>
+        </select><br><br>
+        <label for="py"><B>Python</B></label>
+        <input type="number" id="py" max="100"><br><br>
+        <label for="html"><B>HTML</B></label>
+        <input type="number" id="html" max="100"><br><br>
+        <label for="css"><B> CSS</B></label>
+        <input type="number" id="css" max="100"><br><br>
+        <input type="button" value="Calculate" onclick="calculateMarks()">
+    </form>
+    <div id="result"></div>
+</body>
+</html>
